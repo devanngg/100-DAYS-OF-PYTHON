@@ -10,9 +10,7 @@ def caesar(original_text, shift_amount, encode_or_decode):
     output_text = ""
     if encode_or_decode == "decode":
         shift_amount *= -1
-
     for letter in original_text:
-
         if letter not in alphabet:
             output_text += letter
         else:
